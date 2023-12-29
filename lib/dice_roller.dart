@@ -30,6 +30,7 @@ class _DiceRollerState extends State<DiceRoller> {
         const SizedBox(height: 20),
         FilledButton.tonal(
           onPressed: rollDice,
+          style: FilledButton.styleFrom(backgroundColor: Colors.orangeAccent),
           child: const Text('Roll Dice'),
         ),
       ],
